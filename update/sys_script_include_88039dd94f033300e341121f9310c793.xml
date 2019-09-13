@@ -7,18 +7,25 @@
         <client_callable>false</client_callable>
         <description/>
         <name>Test</name>
-        <script><![CDATA[var Test = Class.create(); Test.prototype = { initialize: function() { }, cats: function(){ var cats = 'very good'; }, type: 'Test' };]]></script>
+        <script><![CDATA[var Test = Class.create();
+Test.prototype = {
+    initialize: function() {},
+    cats: function() {
+        var cats = 'very good amirite';
+    },
+    type: 'Test'
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-02 21:10:55</sys_created_on>
         <sys_id>88039dd94f033300e341121f9310c793</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_package display_value="Cat Facts" source="x_365864_cat_facts">1f8e8d114f033300e341121f9310c765</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Cat Facts">1f8e8d114f033300e341121f9310c765</sys_scope>
         <sys_update_name>sys_script_include_88039dd94f033300e341121f9310c793</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-09 18:47:15</sys_updated_on>
+        <sys_updated_on>2019-09-13 19:17:34</sys_updated_on>
     </sys_script_include>
 </record_update>
